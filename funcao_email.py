@@ -2,7 +2,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-def enviar_email(destiono):
+def enviar_email(destino, conteudo):
 	# Configuração
 	host = 'smtp.gmail.com'
 	port = 587
@@ -20,14 +20,14 @@ def enviar_email(destiono):
 	server.login(user, password)
 
 	# Criando mensagem
-	message = 'Olá, mundo!'
+	message = conteudo
 	print('Criando mensagem...')
 	email_msg = MIMEMultipart()
 	email_msg['From'] = user
-	email_msg['To'] = destiono
-	email_msg['Subject'] = 'Assunto da mensagem'
+	email_msg['To'] = destino
+	email_msg['Subject'] = 'Resultado do seu IMC'
 	print('Adicionando texto...')
-	email_msg.attach(MIMEText(message, 'plain'))
+	email_msg.attach(MIMEText(message, 'html'))
 
 	# Enviando mensagem
 	print('Enviando mensagem...')
