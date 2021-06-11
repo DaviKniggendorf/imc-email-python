@@ -23,4 +23,5 @@
            5 - Altura 	
            6 - Peso  
            
-           Final do Sistema: 	Mensagem: O Resultado do seu imc detalhado foi enviado para este email teste@gmail.com, verefique a caixa de spam se necessário.
+           Final do Sistema: 
+           Mensagem: O Resultado do seu imc detalhado foi enviado para este email teste@gmail.com, verefique a caixa de spam se necessário.
