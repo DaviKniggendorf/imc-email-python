@@ -1,6 +1,7 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from funcao_imc import classifica_imc
 
 def enviar_email(destino, conteudo):
 	# Configuração
@@ -21,6 +22,7 @@ def enviar_email(destino, conteudo):
 
 	# Criando mensagem
 	message = conteudo
+
 	print('Criando mensagem...')
 	email_msg = MIMEMultipart()
 	email_msg['From'] = user
