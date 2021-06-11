@@ -36,10 +36,10 @@ conteudo = f"""
 
 				<ul style="list-style:none;font-size:13pt;margin:0;padding:0;">
 					<li>Nome: {nome}</li>
-					<li>Idade: {idade}</li>
+					<li>Idade: {idade} Anos</li>
 					<li>Sexo: {sexo}</li>
-					<li>Peso: {peso}</li>
-					<li>Altura: {altura}</li>
+					<li>Peso: {peso} Kg</li>
+					<li>Altura: {altura} cm</li>
 				</ul>
 
 				<h3>De acordo com os resultados você está com o <span style="color: #FF8C64;">{imc[1]}

@@ -7,7 +7,7 @@ def enviar_email(destino, conteudo):
 	# Configuração
 	host = 'smtp.gmail.com'
 	port = 587
-	user = 'email de origem'
+	user = 'Aqui coloca o email de origem'
 	password = open('dados/senha.txt', encoding='UTF-8').read().strip()
 
 	# Criando objeto
