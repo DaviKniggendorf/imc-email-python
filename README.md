@@ -1,6 +1,8 @@
 # imc-email-python
  Objetivo: Desenvolver uma aplicação, que efetua o calculo de imc, e enviando os resultados em detalhes para o email que o usuário fornecer.
- Etapas:  	
+ 
+ 
+           Etapas:  	
            1-Fazer uma função que faz o calculo desse imc: imc = peso /(altura * altura)  	
            
            2-Classificar esse resultado de acordo com as normas da OMS:  		
