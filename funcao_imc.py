@@ -2,7 +2,6 @@
 Parte responsavel pelas funções de calcular IMC e
 Classificalos de acordo com o resultado do IMC.
 '''
-
 def classifica_imc(peso, altura):
     
     imc_calculado = round(peso / (altura * altura))
