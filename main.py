@@ -30,7 +30,7 @@ conteudo = f"""
 			<body>
 
 				<h1 style="color: #FF8C64;">Olá {nome}, tudo bem?</h1>
-				<h3 style="text-align:left;font-size:12pt;">Verificamos e 
+				<h3 style="text-align:left;font-size:13pt;">Verificamos e 
 				calculamos seu imc a partir das informações 
 				fornecidas no formulário:</h3>
 
@@ -42,7 +42,7 @@ conteudo = f"""
 					<li>Altura: {altura} cm</li>
 				</ul>
 
-				<h3>De acordo com os resultados você está com o <span style="color: #FF8C64;">{imc[1]}
+				<h3 style='font-size:13pt;'>De acordo com os resultados você está com o <span style="color: #FF8C64;">{imc[1]}
 				</span>, seu imc é <span style="color: #FF8C64;">{imc[0]}<span>.</h3>
 
 			</body>
