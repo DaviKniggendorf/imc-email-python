@@ -15,7 +15,6 @@
            Obesidade (Grau II) Acima de 40 
            
            3- Desenvolver uma função coleta o resultado do calculo do imc, e dispara um email automático na caixa de entrada do email que o usuario forneceu no começo, em formato estilizado html combinado com css.  
-           
            Entradas do Usuário: 	 	
            1 - Nome 	
            2 - Idade 	
