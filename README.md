@@ -3,6 +3,7 @@
  
  
            Etapas:  	
+           
            1-Fazer uma função que faz o calculo desse imc: imc = peso /(altura * altura)  	
            
            2-Classificar esse resultado de acordo com as normas da OMS:  		
